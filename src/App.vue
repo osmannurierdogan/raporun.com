@@ -1,7 +1,7 @@
 <template lang="pug">
 .dashboard
   .header
-    h1 Feyezan Rapor Dashboard
+    h1 Reklam Raporunu Grafiklere Çevir
     .file-upload
       input(type="file" @change="handleFileUpload" accept=".xlsx")
   .charts(v-if="hasData")
